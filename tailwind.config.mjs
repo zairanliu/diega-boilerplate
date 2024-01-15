@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily:{
       'title':['Suisse Works'],
-      'body':['Elido']
+      'body':['skolar-sans-pe','sans-serif']
     },
     extend: {},
   },
