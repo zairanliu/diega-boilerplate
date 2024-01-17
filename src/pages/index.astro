@@ -4,8 +4,13 @@ import FabienLandingPage from '../components/fabien-landing-page.astro';
 import Cipe1 from '../components/cipe-tl-1.astro';
 import CipeTl2 from '../components/cipe-tl-2.astro';
 import CipeTl3 from '../components/cipe-tl-3.astro';
-import CipeWrk1 from '../components/cipe-wrk-1.astro';
-import CipetHist from '../components/cipe-hist.astro';
+import Contempora from '../components/contempora.astro';
+import Cactus from '../components/cactus.astro';
+import Hist1 from '../components/hist-1.astro';
+import Conde from '../components/conde-nest.astro';
+import Hist2 from '../components/hist-2.astro';
+import Seventeen from '../components/seventeen.astro';
+import Charm from '../components/charm.astro';
 ---
 
 <html lang="en">
@@ -27,9 +32,28 @@ import CipetHist from '../components/cipe-hist.astro';
       <CipeTl2 />
     </div>
     <CipeTl3 />
-    <div class="flex relative bg-white justify-between">
-      <CipeWrk1 />
-      <CipetHist />
+    <div class="bg-white text-teal-700 pt-24 pb-24 px-28">
+      <Cactus />
+    </div>
+
+    <div class="bg-teal-700 text-white">
+      <Contempora />
+    </div>
+
+    <div class="bg-orange-50 py-16 px-32 text-gray-500">
+      <Hist1 />
+    </div>
+
+    <div class="bg-white pb-16 text-teal-700">
+      <Conde />
+      <Seventeen />
+    </div>
+    <div class="bg-orange-50 px-32 text-gray-500">
+      <Hist2 />
+    </div>
+
+    <div class="bg-white pb-16 text-teal-700">
+      <Charm />
     </div>
   </body>
 </html>
